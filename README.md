@@ -52,42 +52,40 @@ RegisterNumber:212223230208
 
 **Full Adder:**
 
+![image](https://github.com/23004205/FULL_ADDER_SUBTRACTOR/assets/138971114/b0e7c4f5-0b74-4832-ad89-c0bcd1cb2d0c)
+
 
 
 **Full Subtractor**
 
 
-![image](https://github.com/23004205/FULL_ADDER_SUBTRACTOR/assets/138971114/fddd5b27-d8f5-4ee6-be4e-5ecab782a082)
+![image](https://github.com/23004205/FULL_ADDER_SUBTRACTOR/assets/138971114/6d5473f3-0390-4c11-a271-67eafef62a0f)
 
-```
+
+
 **RTL Schematic**
 
 **Full Adder:**
 
-![image](https://github.com/23004205/FULL_ADDER_SUBTRACTOR/assets/138971114/0648c588-7528-4d30-a5da-56a67085ec7a)
+![exp 4 rtl schematic fadder](https://github.com/23003250/FULL_ADDER_SUBTRACTOR/assets/139331462/a8fec4ef-013e-4ab6-9ece-32edb9b7a839)
 
 **Full Subtractor**
 
-![image](https://github.com/23004205/FULL_ADDER_SUBTRACTOR/assets/138971114/ec01c5d8-d8fa-4d68-b6a8-37fbc38b9930)
-
+![exp 4 rtl schematic fsubtractor](https://github.com/23003250/FULL_ADDER_SUBTRACTOR/assets/139331462/38de2167-852a-45e7-ba22-09af1211a59d)
 
 **Output Timing Waveform**
 
-
 **Full Adder:**
 
-![image](https://github.com/23004205/FULL_ADDER_SUBTRACTOR/assets/138971114/c788a1ba-3cd7-4040-a945-dd39d67ee7a3)
+![exp 4 waveform fadder](https://github.com/23003250/FULL_ADDER_SUBTRACTOR/assets/139331462/9ac232ab-b295-4ab7-8afe-671951daa081)
 
 
 **Full Subtractor**
 
-
-![image](https://github.com/23004205/FULL_ADDER_SUBTRACTOR/assets/138971114/c9fb0fae-edbe-459d-a32e-10ababae97a5)
+![exp 4 waveform fsubtractor](https://github.com/23003250/FULL_ADDER_SUBTRACTOR/assets/139331462/82f281e0-b870-409c-be34-884f15c22d5b)
 
 
 **Result:**
 
 Thus the Full Adder and Full Subtractor circuits are designed and the truth tables is verified using Quartus software.
-
-
 
