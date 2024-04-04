@@ -15,7 +15,6 @@ Software – Quartus prime
 **Full Adder and Full Subtractor**
 
 **Full Adder**
-
 Full adder is a digital circuit used to calculate the sum of three binary bits. It consists of three inputs and two outputs. Two of the input variables, denoted by A and B, represent the two significant bits to be added. The third input, Cin, represents the carry from the previous lower significant position. Two outputs are necessary because the arithmetic sum of three binary digits ranges in value from 0 to 3, and binary 2 or 3 needs two digits. The two outputs are sum and carry.
 
 Sum =A’B’Cin + A’BCin’ + ABCin + AB’Cin’ = A ⊕ B ⊕ Cin 
@@ -35,7 +34,6 @@ A full subtractor is a combinational circuit that performs subtraction involving
 Diff = A ⊕ B ⊕ Bin 
 
 Borrow out = A'Bin + A'B + BBin
-
 **Truthtable**
 
 **Procedure**
@@ -43,13 +41,11 @@ Borrow out = A'Bin + A'B + BBin
 Write the detailed procedure here
 
 **Program:**
-
 Program to design a half subtractor and full subtractor circuit and verify its truth table in quartus using Verilog programming. Developed by: RegisterNumber:
 ```
 Developed by: Saravanan C
 RegisterNumber:212222110041
 ```
-
 ## Full Adder
 ```
 module fulladder(a,b,cin,sum,carry);
@@ -66,9 +62,6 @@ and(w4,cin,a);
 or(carry,w2,w3,w4);
 endmodule
 ```
-
-
-
 ## Full Subtractor
 ```
 module fullsub(a,b,Bin,BO,DIFF);
@@ -78,6 +71,9 @@ assign DIFF = a ^ b ^ Bin;
   assign BO = (a & b) | ((a ^ b) & Bin);
 endmodule
 ```
+
+
+
 **RTL Schematic**
 ![Screenshot 2024-03-22 143255](https://github.com/Yogesh-Yogi-1/FULL_ADDER_SUBTRACTOR/assets/148514598/939151e8-c37b-49aa-8f44-513492ba509e)
 ![Screenshot 2024-03-22 143433](https://github.com/Yogesh-Yogi-1/FULL_ADDER_SUBTRACTOR/assets/148514598/aa118976-fe63-40e9-a31c-cec66367d805)
