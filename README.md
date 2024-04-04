@@ -67,6 +67,8 @@ or(carry,w2,w3,w4);
 endmodule
 ```
 
+
+
 ## Full Subtractor
 ```
 module fullsub(a,b,Bin,BO,DIFF);
